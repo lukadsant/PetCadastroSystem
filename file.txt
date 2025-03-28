@@ -17,3 +17,82 @@ Setando texto
 1: abra kadabra alakazam
 1: rato
 2: cao
+1: cafe
+2: cafe
+1: 
+1: 65456564
+1: 0
+Setando texto
+1: 
+1: sf
+1: 131
+1 - Qual o nome e sobrenome do pet?: cafe
+2 - Qual o tipo do pet (Cachorro/Gato)?: cfe
+3 - Qual o sexo do animal?: as
+4 - Qual endereço e bairro que ele foi encontrado?: zxc
+5 - Qual a idade aproximada do pet?: fghf
+6 - Qual o peso aproximado do pet?: vbn
+7 - Qual a raça do pet?: vbn
+1 - Qual o nome e sobrenome do pet?: cafe
+2 - Qual o tipo do pet (Cachorro/Gato)?: ca
+3 - Qual o sexo do animal?: sad
+4 - Qual endereço e bairro que ele foi encontrado?: asd
+5 - Qual a idade aproximada do pet?: asd
+6 - Qual o peso aproximado do pet?: asd
+7 - Qual a raça do pet?: asd
+1 - Qual o nome e sobrenome do pet?: ac
+2 - Qual o tipo do pet (Cachorro/Gato)?: sa
+3 - Qual o sexo do animal?: ca
+4 - Qual endereço e bairro que ele foi encontrado?: ca
+5 - Qual a idade aproximada do pet?: ca
+6 - Qual o peso aproximado do pet?: ca
+7 - Qual a raça do pet?: c
+1 - Qual o nome e sobrenome do pet?: cafe
+2 - Qual o tipo do pet (Cachorro/Gato)?: ca
+3 - Qual o sexo do animal?: ca
+4 - Qual endereço e bairro que ele foi encontrado?: c
+5 - Qual a idade aproximada do pet?: ac
+6 - Qual o peso aproximado do pet?: a
+7 - Qual a raça do pet?: c
+1 - Qual o nome e sobrenome do pet?: cafe
+2 - Qual o tipo do pet (Cachorro/Gato)?: gato
+3 - Qual o sexo do animal?: lio
+4 - Qual endereço e bairro que ele foi encontrado?: cas
+5 - Qual a idade aproximada do pet?: 24
+6 - Qual o peso aproximado do pet?: 33
+7 - Qual a raça do pet?: pit
+1 - Qual o nome e sobrenome do pet?: pluto
+2 - Qual o tipo do pet (Cachorro/Gato)?: cachorro
+3 - Qual o sexo do animal?: male
+4 - Qual endereço e bairro que ele foi encontrado?: celeste
+5 - Qual a idade aproximada do pet?: 14
+6 - Qual o peso aproximado do pet?: 20
+7 - Qual a raça do pet?: pull
+0: paul
+1: cachorro
+2: male
+3: endec
+4: 14
+5: 13
+6: asd
+-1: casa
+-1: casa
+-1: sas
+-1: zcvz
+-1: dfgdf
+-1: erte
+-1: vbc
+-1: asda
+-1: sad
+-1: aas
+-1: da
+-1: dasd
+-1: ad
+-1: asd
+-1: evinha
+-1: gato
+-1: female
+-1: bairro
+-1: 14
+-1: 33
+-1: pit

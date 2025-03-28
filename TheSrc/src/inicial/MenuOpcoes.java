@@ -19,6 +19,49 @@ public class MenuOpcoes {
         conteudo.forEach(System.out::println);
     }
 
+
+    public void petSwitch(int methodNumber,String qResp){
+        Pet pet= new Pet();
+
+        System.out.println(methodNumber);
+
+        switch(methodNumber){
+            case 1:
+                pet.setNomeSobronome(qResp);
+            case 2:
+                pet.setTipo(TipoPet.valueOf(qResp));
+            case 3:
+                pet.setSexo(TipoSex.valueOf(qResp));
+
+        }
+
+
+    }
+    public void perguntarESalvar(){
+        File file = new File("TheSrc/files/formulario.txt");
+        EscritaLeituraTxt obj = new EscritaLeituraTxt(file);
+        List<String> conteudo = obj.lerArquivo();
+        Scanner scanner=new Scanner(System.in);
+
+        for (String i:conteudo){
+            System.out.println(conteudo.get(conteudo.indexOf(i)));
+            String qResp = scanner.nextLine();
+            petSwitch(conteudo.indexOf(i)+1,qResp);
+
+            System.out.println("--------------------");
+//
+//            salvarResposta(conteudo.indexOf(i)+": "+qResp);
+
+        }
+
+    }
+    public void carregarPergunta(int posicao){
+        File file = new File("TheSrc/files/formulario.txt");
+        EscritaLeituraTxt obj = new EscritaLeituraTxt(file);
+        List<String> conteudo = obj.lerArquivo();
+        System.out.println(conteudo.get(posicao));;
+
+    }
     public void salvarResposta(String texto){
         File fileresp = new File("file.txt");
         EscritaText obj = new EscritaText(fileresp);
@@ -35,10 +78,17 @@ public class MenuOpcoes {
                 int qDigitada = Integer.parseInt(scanner.nextLine());
 
                 if (qDigitada <= qPerguntas && qDigitada > 0) {
-                    System.out.println("opção escolhida: " + qDigitada);
-                    String qResp = scanner.nextLine();
-                    salvarResposta(qDigitada+": "+qResp);
+                  switch (qDigitada){
+                      case 1:
+                          perguntarESalvar();
+                          break;
+                      case 2:
+                          System.out.println("outra opçõa");
+                          break;
+
+                  }
                     break;
+
                 } else {
                     System.out.println("Opção inválida. Digite um número entre 1 e " + qPerguntas + ": ");
                     recarregarOpcoes();

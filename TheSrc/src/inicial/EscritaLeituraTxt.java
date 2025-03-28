@@ -37,5 +37,6 @@ public class EscritaLeituraTxt {
         EscritaLeituraTxt obj = new EscritaLeituraTxt(file);
         List<String> conteudo = obj.lerArquivo();
         conteudo.forEach(System.out::println);
+
     }
 }

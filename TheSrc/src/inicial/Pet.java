@@ -19,6 +19,10 @@ public class Pet {
         setRaca(raca);
     }
 
+    public Pet() {
+
+    }
+
 
     private boolean isNomeValido(String nome){
         return nome.matches("^[A-Za-z]+\\s+[A-Za-z]+$");
